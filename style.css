@@ -1,7 +1,48 @@
-body {
-    
+.page{
+    min-width: 1280px; 
+    max-width: 320px; 
+    margin: 0 auto; 
+    background-color: #2A2C2F;
 }
 
 .header {
-    
+    position: relative; 
+    height: 100vh; 
+    min-height: 42px; 
+    max-height: 52px;
+    min-width: 288px; 
+    max-width: 1184px; 
+    display: flex; 
+    padding: 28px 48px 0 48px;
+    margin: 0;  
+    flex-direction: row;
+    justify-content: space-between;
 } 
+
+.header__lang-links {
+    display: flex; 
+  align-items: flex-end; 
+  margin: 0;
+  padding: 0;
+  column-gap: 18px; 
+  
+}
+
+.header__lang-link {
+    color: #FFFFFF;
+    
+}
+.lead {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin: 148px 136px 0 148px;
+
+}
+.lead__image {
+    min-height: 42px; 
+    max-height: 615px;
+    min-width:320px; 
+    max-width: 984px; 
+      
+}
