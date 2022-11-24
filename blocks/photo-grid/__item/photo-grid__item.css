@@ -1,0 +1,30 @@
+.photo-grid__item {
+    width: 22vw;
+    max-width: 284px;
+    margin: 0;
+    padding: 0;
+
+
+}
+
+@media (max-width:1024px){
+    .photo-grid__item {
+        width: 29vw;
+        max-width: 300px;
+    }
+}
+
+@media (max-width:768px){
+    .photo-grid__item {
+        width: 46vw;
+        max-width: 352px;
+    }
+}
+
+@media (max-width:320px){
+    .photo-grid__item {
+        width: 90vw;
+        max-width: 288px;
+
+    }
+}

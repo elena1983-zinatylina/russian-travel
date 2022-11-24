@@ -1,0 +1,33 @@
+.intro {
+    max-width: 690px;
+    width: 53.9%;
+    margin: 7.3% 35.05% 7.3% 11.74%;
+    padding: 0;
+
+}
+
+@media (max-width:1024px) {
+    .intro {
+        max-width: 690px;
+        width: 63.38%;
+        margin: 9.155% 27.861% 9.155% 4.777%;
+
+    }
+}
+
+@media (max-width:768px) {
+    .intro {
+        max-width: 720px;
+        width: 93.75%;
+        margin: 11.75% 3.205%;
+
+    }
+}
+
+@media (max-width:320px) {
+    .intro {
+        max-width: 288px;
+        width: 90%;
+        margin: 21.263% 5.32%;
+    }
+}

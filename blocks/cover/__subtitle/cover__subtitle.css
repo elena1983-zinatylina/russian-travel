@@ -1,0 +1,41 @@
+.cover__subtitle {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.406vw;
+    line-height: 1.2;
+    text-align: center;
+    color: #FFFFFF;
+    max-width: 360px;
+    margin: 0 34.79%;
+    padding-bottom: 20.694%;
+    list-style: none;
+    word-wrap: break-word;
+}
+
+@media (max-width:1024px) {
+    .cover__subtitle {
+        font-size: 1.69vw;
+        line-height: 1.2;
+        margin: 0 33.035%;
+        padding-bottom: 19.404%;
+    }
+}
+
+@media (max-width:768px) {
+    .cover__subtitle {
+        font-size: 2.26vw;
+        line-height: 1.2;
+        margin: 0 27.237%;
+        padding-bottom: 15.355%;
+        word-break: normal;
+    }
+}
+
+@media (max-width:320px) {
+    .cover__subtitle {
+        font-size: 4.5vw;
+        line-height: 1.14;
+        margin: 0 5.035%;
+        padding-bottom: 10.38%;
+    }
+}

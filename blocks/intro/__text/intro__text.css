@@ -1,0 +1,28 @@
+.intro__text {
+    margin: 5.8% 0 0 0;
+    padding: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.250vw;
+    line-height: 163%;
+}
+
+@media (max-width:1024px){
+    .intro__text {
+        margin: 5.8% 0 0 0;
+        font-size: 1.563vw;
+        line-height: 163%;
+    }
+}
+
+@media (max-width:320px){
+    .intro__text {
+        margin: 10.02% 0 0 0;
+        font-size: 5.000vw;
+        line-height: 163%;
+        max-width: 288px;
+        width: 100%;
+        overflow: hidden;
+    }
+}
+

@@ -1,0 +1,21 @@
+.place__paragraphs {
+    margin: 0;
+    padding: 0;
+    max-width: 484px;
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width:1024px) {
+    .place__paragraphs {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media (max-width:768px) {
+    .place__paragraphs {
+        width: auto;
+        height: 100%;
+    }
+}
