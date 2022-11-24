@@ -8,6 +8,6 @@
 Этот проект сложнее предыдущих, мне было очень трудно, но и в результате крайне интресно, спасибо за урок!
 
 
-* [Ссылка на проект]( https://elena1983-zinatylina.github.io/russian-travel /https://students-yandex.github.io/russian-travel/index.html)
+* [Ссылка на проект](https://elena1983-zinatylina.github.io/russian-travel /https://students-yandex.github.io/russian-travel/index.html)
 
 
