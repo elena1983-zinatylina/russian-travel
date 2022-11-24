@@ -751,7 +751,6 @@
         align-self: start;
     }
 
-    .place__website {}
 
     .place__link {
         font-size: 2.344vw;
@@ -829,7 +828,6 @@
         margin: 12px 0 0 0;
     }
 
-    .place__paragraphs {}
 
     .place__paragraph:first-child {
         font-size: 5.000vw;
