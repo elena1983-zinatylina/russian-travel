@@ -1,17 +1,19 @@
 .place__paragraph:first-child {
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 163%;
     padding: 0;
     margin: 0 0 26px 0;
+    font-size: 18px;
+    Line-height: 163%;
+    color: rgb(255, 255, 255, 1);
+
 }
 
 .place__paragraph:last-child {
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    line-height: 163%;
+    Line-height: 163%;
     padding: 0;
     margin: 0;
 }
@@ -19,42 +21,48 @@
 @media (max-width:1024px) {
     .place__paragraph:last-child {
         margin: 0;
-        font-size: 1.758vw;
-        line-height: 163%;
+        font-size: 18px;
+        Line-height: 163%;
     }
 }
 @media (max-width:1024px) {
     .place__paragraph:first-child {
-        font-size: 1.758vw;
-        line-height: 163%;
+        font-size: 18px;
+        Line-height: 163%;
     }
 }
 
 @media (max-width:768px) {
     .place__paragraph:first-child {
-        font-size: 2.083vw;
-        line-height: 163%;
+        font-size: 18px;
+        Line-height: 163%;
     }
 }
 @media (max-width:768px) {
     .place__paragraph:last-child {
-        font-size: 2.083vw;
-        line-height: 163%;
-
+        font-size: 18px;
+        Line-height: 163%;
+    }
+}
+ 
+@media (min-width:321px) and (max-width:700px){
+    .place__paragraph {
+        width: 100%;
+        margin: 16px 0;
     }
 }
 
 @media (max-width:320px) {
     .place__paragraph:first-child {
-        font-size: 5.000vw;
-        line-height: 163%;
+        font-size: 16px;
+        Line-height: 163%;
         margin: 32px 16px;
     }
 }
 @media (max-width:320px) {
     .place__paragraph:last-child {
-        font-size: 5.000vw;
-        line-height: 163%;
+        font-size:16px;
+        Line-height: 163%;
         margin: 16px;
     }
 }

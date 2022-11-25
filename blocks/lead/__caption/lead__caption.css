@@ -4,7 +4,7 @@
     padding: 0;
     margin: 0;
     text-align: left;
-    font-size: 0.781vw;
+    font-size: 10px;
     letter-spacing: 1.5px;
     text-transform: uppercase;
     color: #FFFFFF;
@@ -13,24 +13,26 @@
 
 @media screen and (max-width:1024px){
     .lead__caption {
-        font-size: 0.977vw;
-        opacity: 1;
+        font-size: 10px;
+        line-height: 1.5;
+        color: rgba(255, 255, 255, 1);
     }
 }
 
 @media (max-width:768px){
     .lead__caption {
         margin-left: 3.205%;
-        font-size: 1.302vw;
-        opacity: 1;
+        font-size: 10px;
+        line-height: 1.5;
+        color: rgba(255, 255, 255, 1);
     }
 }
 
 @media (max-width:320px){
     .lead__caption {
         margin-left: 5.32%;
-        font-size: 3.125vw;
+        font-size: 10px;
         line-height: 1.4;
-        opacity: 1;
+        color: rgba(255, 255, 255, 1);
     }
 }

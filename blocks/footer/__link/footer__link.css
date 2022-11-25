@@ -1,11 +1,11 @@
 
 .footer__link {
-    color: #FFFFFF;
+    color:rgb(255, 255, 255, 1);
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    font-size: 1.250vw;
-    line-height: 1.125;
+    font-size: 16px;
+    line-height: 18px;
     margin-right: 18px;
     padding: 0;
     text-decoration: none;
@@ -22,29 +22,31 @@
 @media (max-width:1024px) {
     .footer__link {
 
-        font-size: 1.563vw;
-        line-height: 1.125;
+        font-size: 16px;
+    line-height: 18px;
         margin-right: 18px;
     }
 }
 
 @media (max-width:768px) {
     .footer__link {
-        font-size: 2.222vw;
-        line-height: 1.125;
+        font-size: 16px;
+        line-height: 16px;
         margin-right: 18px;
     }
 }
 
-@media (min-width:321px) and (max-width:670px) {
+@media (min-width:321px) and (max-width:767px) {
     .footer__link {
-        font-size: 3.582vw;
-        line-height: 1;
-        margin: 17.205% 0 0 0;
+        font-size: 16px;
+        line-height: 18px;
+        margin: 0;
+        margin-right: 18px;
         text-align: left;
     }
-}
-@media (min-width:321px) and (max-width:670px) {
+    }
+
+@media (min-width:321px) and (max-width:767px) {
     .footer__link:first-child {
         margin-top: 0;
     }
@@ -52,9 +54,9 @@
 
 @media (max-width:320px) {
     .footer__link {
-        font-size: 7.500vw;
-        line-height: 1;
-        margin: 17.205% 0 0 0;
+        font-size: 24px;
+        line-height: 24px;
+        margin: 0;
         text-align: left;
     }
 }

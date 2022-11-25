@@ -4,25 +4,30 @@
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    font-size: 1.250vw;
+    font-size:16px;
     line-height: 163%;
 }
 
 @media (max-width:1024px){
     .intro__text {
         margin: 5.8% 0 0 0;
-        font-size: 1.563vw;
+        font-size: 16px;
         line-height: 163%;
     }
+}
+
+@media (max-width:768px){
+    .intro__text {
+        font-size: 16px;
+        line-height: 163%;}
 }
 
 @media (max-width:320px){
     .intro__text {
         margin: 10.02% 0 0 0;
-        font-size: 5.000vw;
+        font-size: 16px;
         line-height: 163%;
         max-width: 288px;
-        width: 100%;
         overflow: hidden;
     }
 }
