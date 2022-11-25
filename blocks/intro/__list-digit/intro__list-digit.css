@@ -2,29 +2,10 @@
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    font-size: 0.938vw;
-    line-height: 1.5;
+    font-size:12px;
+    line-height: 18px;
     margin: 0;
     padding: 0;
 }
 
-@media (max-width:1024px){
-    .intro__list-digit{
-        font-size: 1.172vw;
-        line-height: 1.5;
-    }  
-}
-@media (max-width:768px){
-    .intro__list-digit{
-        font-size: 1.563vw;
-        line-height: 1.5;
-    }
-}
-@media (max-width:320px){
-    .intro__list-digit{
-        font-size: 3.3vw;
-        line-height: 1.5;
-        
-    }
-}
 
