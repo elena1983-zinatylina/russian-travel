@@ -1,15 +1,28 @@
 .places {
     display: grid;
     max-width: 984px;
-    width: 100%;
-    margin: 92px auto;
+    width: 76.875%;
+    margin: 7.19% 11.563%;
     padding: 0;
+}
+
+@media (min-width:1023px) and (max-width:1279px) {
+    .places {
+        margin: 9.155% auto;
+    }
 }
 
 @media (max-width:1024px) {
     .places {
         max-width: 928px;
-        width: 100%;
+        width: 90.625%;
+        margin: 9.155% auto;
+    }
+}
+
+@media (min-width:769px) and (max-width:1023px) {
+    .places {
+
         margin: 9.155% auto;
     }
 }
@@ -17,8 +30,13 @@
 @media (max-width:768px) {
     .places {
         max-width: 720px;
-        width: 100%;
         margin: 11.49% auto;
+    }
+}
+
+@media (min-width:321px) and (max-width:767px) {
+    .places {
+        margin: 11.474% 3.13%;
     }
 }
 
@@ -26,6 +44,6 @@
     .places {
         max-width: 320px;
         width: 100%;
-        margin: 20.13% 0;
+        margin: 20.13% auto;
     }
 }

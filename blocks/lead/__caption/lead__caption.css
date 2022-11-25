@@ -1,19 +1,20 @@
 .lead__caption {
+    font-family: 'Inter';
     font-style: normal;
-    font-weight: 400;
     padding: 0;
     margin: 0;
     text-align: left;
     font-size: 0.781vw;
     letter-spacing: 1.5px;
     text-transform: uppercase;
-    color: rgb(255, 255, 255, 0.25);
+    color: #FFFFFF;
+    opacity: 0.25;
 }
 
 @media screen and (max-width:1024px){
     .lead__caption {
         font-size: 0.977vw;
-        color: rgb(255, 255, 255, 1);
+        opacity: 1;
     }
 }
 
@@ -21,7 +22,7 @@
     .lead__caption {
         margin-left: 3.205%;
         font-size: 1.302vw;
-        color: rgb(255, 255, 255, 1);
+        opacity: 1;
     }
 }
 
@@ -30,6 +31,6 @@
         margin-left: 5.32%;
         font-size: 3.125vw;
         line-height: 1.4;
-        color: rgb(255, 255, 255, 1);
+        opacity: 1;
     }
 }
