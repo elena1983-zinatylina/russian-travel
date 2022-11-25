@@ -4,7 +4,7 @@
     padding: 0;
     margin: 0 0 26px 0;
     font-size: 18px;
-    Line-height: 163%;
+    line-height: 163%;
     color: rgb(255, 255, 255, 1);
 
 }
@@ -13,7 +13,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    Line-height: 163%;
+    line-height: 163%;
     padding: 0;
     margin: 0;
 }
@@ -22,26 +22,26 @@
     .place__paragraph:last-child {
         margin: 0;
         font-size: 18px;
-        Line-height: 163%;
+        line-height: 163%;
     }
 }
 @media (max-width:1024px) {
     .place__paragraph:first-child {
         font-size: 18px;
-        Line-height: 163%;
+        line-height: 163%;
     }
 }
 
 @media (max-width:768px) {
     .place__paragraph:first-child {
         font-size: 18px;
-        Line-height: 163%;
+        line-height: 163%;
     }
 }
 @media (max-width:768px) {
     .place__paragraph:last-child {
         font-size: 18px;
-        Line-height: 163%;
+        line-height: 163%;
     }
 }
  
@@ -55,14 +55,14 @@
 @media (max-width:320px) {
     .place__paragraph:first-child {
         font-size: 16px;
-        Line-height: 163%;
+        line-height: 163%;
         margin: 32px 16px;
     }
 }
 @media (max-width:320px) {
     .place__paragraph:last-child {
         font-size:16px;
-        Line-height: 163%;
+        line-height: 163%;
         margin: 16px;
     }
 }
