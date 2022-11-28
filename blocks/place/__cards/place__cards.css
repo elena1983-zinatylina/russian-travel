@@ -1,30 +1,31 @@
-.place {
+.place__cards {
     display: grid;
-    margin: 0;
-    padding: 0;
     max-width: 984px;
     width: 100%;
+    margin: -1px;
+    padding: 0;
     grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(5, 1fr);
     row-gap: 80px;
-
 }
 
 @media (max-width:1024px) {
-    .place {
+    .place__cards {
         max-width: 928px;
-        width: 100%;
-        height: auto;
-        grid-template-rows: auto;
     }
 }
 
 @media (max-width:768px) {
-    .place {
+    .place__cards {
         max-width: 720px;
-        width: 100%;
         row-gap: 73px;
-        margin: 0;
-        padding: 0;
+        margin: 0%;
+    }
+}
+
+@media (max-width:320px) {
+    .place__cards {
+        max-width: 320px;
+        width: 100%;
+        row-gap: 25px;
     }
 }

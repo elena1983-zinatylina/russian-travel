@@ -2,8 +2,11 @@
     display: block;
     text-decoration: none;
     background: rgb(42, 44, 47, 0.3);
+   
 }
 
 .cover__link:hover {
     background: rgb(42, 44, 47, 0.8);
 }
+
+

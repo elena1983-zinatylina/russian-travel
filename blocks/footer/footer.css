@@ -3,8 +3,7 @@
     display: flex;
     max-width: 1184px;
     width: auto;
-    margin: 7.297% 0 1.904%;
-    padding: 3.81%;
+    margin: 7% auto 2%;
     align-items: center;
     justify-content: space-between;
 }
@@ -13,8 +12,7 @@
     .footer {
         display: flex;
         max-width: 928px;
-        margin: 9.155% 0 2.389%;
-        padding: 0 4.777%;
+        margin: 7% auto 2%;
     }
 }
 
@@ -22,18 +20,13 @@
     .footer {
         display: flex;
         max-width: 720px;
-        margin: 11.49% 0 3.135%;
-        padding: 0 3.135%;
+        margin: 11% auto 3%;
     }
 }
 
 @media (min-width:321px) and (max-width:670px) {
     .footer {
         max-width: 186px;
-        margin: 11.49% 0 3.135%;
-        width: 100%;
-        height: auto;
-        padding: 0 3.135%;
         flex-direction: column;
     }
 }
@@ -41,11 +34,8 @@
 @media (max-width:320px) {
     .footer {
         max-width: 186px;
-        margin: 11.49% 0 3.135%;
-        width: 100%;
-        height: auto;
-        padding: 0 3.135%;
         flex-direction: column;
+        margin: 17% 17px -1%;
     }
 }
 

@@ -2,18 +2,17 @@
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
-    line-height: 20,4px;
-    letter-spacing:2px;
+    line-height: 20, 4px;
+    letter-spacing: 2px;
     color: rgb(170, 170, 170, 1);
     margin: 0;
     padding: 0;
 }
 
-@media (max-width:768px){
+@media (max-width:768px) {
     .place__url-heading {
         font-size: 12px;
         line-height: 12px;
-        letter-spacing:2px;
+        letter-spacing: 2px;
     }
 }
-

@@ -1,7 +1,8 @@
 .header {
     display: flex;
     max-width: 1184px;
-    margin: 2.221% 3.81% 0;
+    width: 92.5%;
+    margin:  2% auto 0;
     padding: 0;
     flex-direction: row;
     justify-content: space-between;
@@ -11,15 +12,14 @@
     .header {
         max-width: 928px;
         width: 90.7%;
-        padding: 0;
+        margin:  3% auto 0;
     }
 }
 
 @media (max-width:768px) {
     .header {
         max-width: 720px;
-        width: 93, 75%;
-        margin: 3.74% 3.21% 6.41% 3.21%;
+        margin: 3.7% auto 6% 3%;
     }
 }
 
@@ -27,6 +27,6 @@
     .header {
         max-width: 288px;
         width: 90%;
-        margin: 5.32% 5.32% 0 5.32%;
+        margin: 5% auto 0 6%;
     }
 }

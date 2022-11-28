@@ -1,0 +1,10 @@
+.header__lang-link_active{
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 400;
+    margin-right: 18px;
+}
+
+.header__lang-link_active:hover{
+    opacity: 0.3;
+}

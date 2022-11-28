@@ -3,42 +3,37 @@
     font-weight: 900;
     text-align: center;
     margin: 0 13.004% 0;
+    padding: 0;
     align-self: center;
-    max-width: 720px;
-    width: 73.17%;
     color: rgb(255, 255, 255, 1);
-    font-size: 72px;
-    line-height: 76px;
+    font-size: 96px;
+    line-height: 100px;
 }
 
-@media screen and (max-width:1024px) {
+@media (max-width:1024px) {
     .lead__title {
         margin: 0 11.31%;
-        font-size: 72px;
-        line-height: 76px;
-        max-width: 720px;
-        width: 77.58%;
-
     }
 }
 
 @media (max-width:768px) {
     .lead__title {
         margin: 0 3.2%;
-        font-size: 42px;
-        line-height: 46px;
-        max-width: 720px;
-        width: 93.75%;
+    }
+}
+
+@media (min-width:321px) and (max-width:767px) {
+    .lead__title {
+        margin: 5.1% 0 0;
+        font-size: 12.5vw;
+        line-height: 1.1;
     }
 }
 
 @media (max-width:320px) {
     .lead__title {
-        margin: 5.035% 0;
-        font-size: 32px;
-        line-height: 35px;
-        min-width: 288px;
-        width: 90%;
-
+        margin: 5.1% 0 0;
+        font-size: 40px;
+        line-height: 44px;
     }
 }
