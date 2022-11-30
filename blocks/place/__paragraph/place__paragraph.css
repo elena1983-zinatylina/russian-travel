@@ -1,77 +1,20 @@
-.place__paragraph:first-child {
+.place__paragraph {
     font-style: normal;
     font-weight: 400;
     padding: 0;
-    margin: 0px 0px 26px -1px;
+    margin:  0 0 26px 0;
     font-size: 18px;
     line-height: 163%;
-    color: rgb(255, 255, 255, 1);
+    color: #FFFFFF;
 
 }
 
 .place__paragraph:last-child {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 163%;
-    padding: 0;
-    margin: -3px -10px 0px -1px;
-}
-
-@media (max-width:1024px) {
-    .place__paragraph:last-child {
-        margin: 0;
-        font-size: 18px;
-        line-height: 163%;
-    }
-}
-
-@media (max-width:1024px) {
-    .place__paragraph:first-child {
-        font-size: 18px;
-        line-height: 163%;
-    }
+    margin: 0;
 }
 
 @media (max-width:768px) {
-    .place__paragraph:first-child {
-        font-size: 16px;
-        line-height: 26px;
-        line-height: 163%;
-    }
-}
-
-@media (max-width:768px) {
-    .place__paragraph:last-child {
-        font-size: 16px;
-        line-height: 26px;
-        line-height: 163%;
-    }
-}
-
-@media (min-width:321px) and (max-width:700px) {
     .place__paragraph {
-        width: 100%;
-        margin: 16px 0;
-        line-height: 26px;
-        line-height: 163%;
-    }
-}
-
-@media (max-width:320px) {
-    .place__paragraph:first-child {
         font-size: 16px;
-        line-height: 163%;
-        margin: 0 8%;
-        width: 92%;
-    }
-}
-
-@media (max-width:320px) {
-    .place__paragraph:last-child {
-        font-size: 16px;
-        line-height: 163%;
-        margin: 8% 8%;
-        width: 85%;
     }
 }

@@ -2,7 +2,7 @@
     display: grid;
     max-width: 984px;
     width: 100%;
-    margin: -1px;
+    margin: 0;
     padding: 0;
     grid-template-columns: repeat(1, 1fr);
     row-gap: 80px;
@@ -18,14 +18,12 @@
     .place__cards {
         max-width: 720px;
         row-gap: 73px;
-        margin: 0%;
     }
 }
 
 @media (max-width:320px) {
     .place__cards {
         max-width: 320px;
-        width: 100%;
         row-gap: 25px;
     }
 }

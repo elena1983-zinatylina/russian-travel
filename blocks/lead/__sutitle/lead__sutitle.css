@@ -5,41 +5,31 @@
     line-height: 1.2;
     text-align: center;
     padding: 0;
-    margin: 3.307% auto 0;
+    margin: 0 auto 6.5%;
     align-self: center;
     max-width: 640px;
     width: 65%;
 }
 
-@media screen and (max-width:1024px) {
-    .lead__subtitle {
-        margin: 3.45% auto 0;
-        max-width: 640px;
-        width: 68.97%;
-    }
-}
-
 @media (max-width:768px) {
     .lead__subtitle {
-        margin: 4.273% auto 0;
-        max-width: 640px;
-        width: 83.33%;
+        margin: 0 auto 7.3%;
     }
 }
 
 @media (min-width:321px) and (max-width:767px) {
     .lead__subtitle {
-        font-size: 3.91vw;
+        font-size: max(3.91vw, min(16px));
+        width: 90%;
     }
 }
 
 @media (max-width:320px) {
     .lead__subtitle {
-        margin: 5.32% auto 0;
+        margin-bottom: 40px;
         font-size: 16px;
         line-height: 1.25;
         min-width: 288px;
         width: 90%;
-        padding: 0;
     }
 }

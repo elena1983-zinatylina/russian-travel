@@ -8,7 +8,7 @@
 
 @media (min-width:1023px) and (max-width:1279px) {
     .place {
-        margin: 9.155% auto;
+        margin: 9% auto;
     }
 }
 
@@ -28,7 +28,7 @@
 
 @media (min-width:321px) and (max-width:767px) {
     .place {
-        margin: 11.474% 3.13%;
+        margin: 11% auto;
     }
 }
 

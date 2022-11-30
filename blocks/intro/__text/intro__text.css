@@ -10,14 +10,13 @@
 
 @media (max-width:768px) {
     .intro__text {
-        margin: 5% 0%;
+        margin: 5.5% 0 0 0;
     }
 }
 
 @media (max-width:320px) {
     .intro__text {
-        margin: 13% 0%;
+        margin: 14% 0 0 0;
         max-width: 285px;
-        overflow: hidden;
     }
 }

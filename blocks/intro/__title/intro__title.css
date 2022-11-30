@@ -7,27 +7,6 @@
     line-height: 1.07;
 }
 
-@media (max-width:1024px) {
-    .intro__title {
-        font-size: 54px;
-        line-height: 1.07;
-    }
-}
-
-@media (max-width:1023px) and (min-width: 769px) {
-    .intro__title {
-        font-size: 54px;
-        line-height: 1.07;
-    }
-}
-
-@media (max-width:768px) {
-    .intro__title {
-        font-size: 54px;
-        line-height: 1.07;
-    }
-}
-
 @media (min-width:321px) and (max-width: 767px) {
     .intro__title {
         font-size: max(7.04vw, min(32px));

@@ -1,5 +1,6 @@
 .place__image {
     max-width: 460px;
+    width: 100%;
 }
 
 @media (max-width:1024px) {
@@ -17,14 +18,11 @@
 @media (min-width:321px) and (max-width:700px) {
     .place__image {
         max-width: 700px;
-        width: 100%;
-        margin: 0;
     }
 }
 
 @media (max-width:320px) {
     .place__image {
         max-width: 320px;
-        width: 100%;
     }
 }

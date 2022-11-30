@@ -1,26 +1,19 @@
 .intro__lists {
     display: flex;
     flex-direction: column;
-    margin: 5% 0 0 0;
+    margin: 4.8% 0 0 0;
     list-style: none;
     padding: 0;
 }
 
-@media (max-width:1024px) {
-    .intro__lists {
-        margin: 5% 0 0 0;
-    }
-}
-
 @media (max-width:768px) {
     .intro__lists {
-        margin: -0.3% 0;
+        margin: 4.6% 0 0 0;
     }
 }
 
 @media (max-width:320px) {
     .intro__lists {
-        margin: -1% 0;
-        opacity: 0.8;
+        margin: 11% 0 0 0;
     }
 }
