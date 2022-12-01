@@ -2,7 +2,7 @@
     display: grid;
     color: #FFFFFF;
     max-width: 984px;
-    width: 100%;
+    width: ;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto;
     column-gap: 40px;
@@ -20,19 +20,16 @@
 
 @media (max-width:768px) {
     .place__item {
-        max-width: 720px;
-        row-gap: 44px;
-        column-gap: 5px;
-        padding: 0;
-        margin: 0;
+        row-gap: 48px;
+        column-gap: 28px;
     }
 }
 
 @media (min-width:321px) and (max-width:700px) {
     .place__item {
-        max-width: 700px;
-        row-gap: 48px;
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+        margin: 64px 24px 0 24px;
+        width: calc(100%-48px);
     }
 }
 
@@ -40,6 +37,6 @@
     .place__item {
         max-width: 320px;
         row-gap: 32px;
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(auto-fill, minmax(288px, 1fr));
     }
 }

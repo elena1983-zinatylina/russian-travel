@@ -1,30 +1,24 @@
 .place__cards {
     display: grid;
-    max-width: 984px;
-    width: 100%;
     margin: 0;
     padding: 0;
-    grid-template-columns: repeat(1, 1fr);
     row-gap: 80px;
 }
 
 @media (max-width:1024px) {
     .place__cards {
-        max-width: 928px;
         row-gap: 73px;
     }
 }
 
 @media (max-width:768px) {
     .place__cards {
-        max-width: 720px;
         row-gap: 46px;
     }
 }
 
 @media (max-width:320px) {
     .place__cards {
-        max-width: 320px;
         row-gap: 50px;
     }
 }
