@@ -12,13 +12,14 @@
 @media (max-width:1024px) {
     .lead {
         max-width: 928px;
-       margin-top: 48px;
+        margin-top: 48px;
     }
 }
+
 @media (min-width:769px) and (max-width:1023px) {
     .lead {
         width: 100%;
-       margin: 48px auto 0;
+        margin: 48px auto 0;
     }
 }
 
@@ -29,12 +30,12 @@
     }
 }
 
-@media (min-width:321px) and (max-width:767px){
+@media (min-width:321px) and (max-width:767px) {
     .lead {
         width: 100%;
-       margin: 48px auto 0;
+        margin: 48px auto 0;
     }
-} 
+}
 
 @media (max-width:320px) {
     .lead {

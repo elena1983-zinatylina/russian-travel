@@ -20,11 +20,13 @@
         width: calc(100% - 48px);
     }
 }
+
 @media (max-width:768px) {
     .header {
         width: calc(100% - 32px);
-    }  
+    }
 }
+
 @media (max-width:320px) {
     .header {
         max-width: 288px;

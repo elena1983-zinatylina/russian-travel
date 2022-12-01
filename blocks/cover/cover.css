@@ -8,8 +8,9 @@
     padding: 0;
     margin-top: 92px;
 }
-@media (min-width: 1025px) and (max-width: 1279px){
-    .cover{
+
+@media (min-width: 1025px) and (max-width: 1279px) {
+    .cover {
         margin: 92px 48px 24px 48px;
         width: calc(100%-96px);
     }
@@ -21,10 +22,10 @@
     }
 }
 
-@media (min-width: 769px) and (max-width: 1023px){
+@media (min-width: 769px) and (max-width: 1023px) {
     .cover {
         margin: 88px 0 0 0;
-        width:100%;
+        width: 100%;
     }
 }
 
@@ -35,15 +36,17 @@
     }
 }
 
-@media (min-width:321px) and (max-width:767px){
-    .cover {margin: 64px 0 0 0;
-            width:100%;
+@media (min-width:321px) and (max-width:767px) {
+    .cover {
+        margin: 64px 0 0 0;
+        width: 100%;
     }
 }
+
 @media (max-width:320px) {
     .cover {
         max-width: 320px;
-         margin-top: 66px;
+        margin-top: 66px;
 
     }
 }
