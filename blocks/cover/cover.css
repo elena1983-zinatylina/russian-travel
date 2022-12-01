@@ -47,6 +47,7 @@
     .cover {
         max-width: 320px;
         margin-top: 66px;
+        width: 100%;
 
     }
 }

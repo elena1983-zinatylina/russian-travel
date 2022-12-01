@@ -41,5 +41,6 @@
     .lead {
         max-width: 320px;
         margin-top: 48px;
+        width: 100%;
     }
 }
