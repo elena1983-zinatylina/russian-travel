@@ -39,7 +39,7 @@
 
 @media (max-width:320px) {
     .lead {
-        max-width: 320px;
+        max-width: 316px;
         margin-top: 48px;
         width: 100%;
     }
