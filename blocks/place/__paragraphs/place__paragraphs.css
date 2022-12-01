@@ -21,14 +21,13 @@
 
 @media (min-width:321px) and (max-width:767px) {
     .place__paragraphs {
-        max-width: 352px;
+        max-width: 288px;
     }
 }
 
 @media (max-width:320px) {
     .place__paragraphs {
         max-width: 288px;
-        padding: 0px 16px;
         gap: 25px;
     }
 }

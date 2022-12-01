@@ -1,4 +1,4 @@
-@import url("../vendor/normalize.css");
+@import url("../vendor/normalize.css"); 
 @import url("../vendor/fonts/inter.css");
 @import url("../blocks/page/page.css");
 /*header*/
@@ -44,3 +44,6 @@
 @import url("../blocks/footer/__links/footer__links.css");
 @import url("../blocks/footer/__link/footer__link.css");
 @import url("../blocks/footer/__copyright/footer__copyright.css");
+section, div, nav, body, header, main, img {
+    border: 1px solid red;
+}
