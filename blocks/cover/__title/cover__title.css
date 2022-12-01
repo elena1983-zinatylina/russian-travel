@@ -11,18 +11,10 @@
     list-style: none;
     width: 100%;
 }
-
-@media (min-width: 1281px) and (max-width:5000px) {
-    .cover__title {
-        font-size: 72px;
-        line-height: 1.05;
-    }
-}
-
 @media (max-width:1024px) {
     .cover__title {
         margin: auto;
-        padding-top: 19%;
+        padding-top: 195px;
     }
 }
 
@@ -55,8 +47,8 @@
     .cover__title {
         font-size: 32px;
         line-height: 35px;
-        margin: 0 5% 5%;
-        padding-top: 7%;
+        margin: 0 16px 16px;
+        padding-top: 39px;
         width: 100%;
         max-width: 288px;
     }

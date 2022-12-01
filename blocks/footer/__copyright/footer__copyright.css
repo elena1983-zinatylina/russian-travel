@@ -13,12 +13,13 @@
         line-height: 14px;
         margin: 32px 0 24px 0;
         align-self: start;
+        padding: 0;
     }
 }
 
 @media (max-width:320px) {
     .footer__copyright {
-        margin: 48px 0 24px 16px;
+        margin: 48px 0 0 0;
        
     }
 }

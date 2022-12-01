@@ -21,8 +21,8 @@
 @media (max-width:768px) {
     .place__item {
         max-width: 720px;
-        row-gap: 48px;
-        column-gap: 40px;
+        row-gap: 44px;
+        column-gap: 5px;
         padding: 0;
         margin: 0;
     }

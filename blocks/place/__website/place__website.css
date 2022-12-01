@@ -1,14 +1,26 @@
 .place__website {
-    display: grid;
-    align-self: end;
+    display: flex;
+    flex-direction: column;
     max-width: 456px;
     width: 100%;
     padding: 0;
     margin: 0;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+}
+
+@media (max-width:768px) {
+    .place__website {
+        max-width: 352px;
+      
+    }
 }
 
 @media (max-width:320px) {
     .place__website {
-        margin: 0 0 0 16px;
+        max-width: 288px;
+        margin: 0 16px;
+    
     }
 }

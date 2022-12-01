@@ -2,37 +2,38 @@
 .footer {
     display: flex;
     max-width: 1184px;
-    width: 92.5%;
-    margin: 7.2% auto 2%;
+    width: 100%;
+    margin: 0 auto;
     align-items: center;
     justify-content: space-between;
+    margin-top: 92px;
+    margin-bottom: 24px;
 }
 
 @media (max-width:1024px) {
     .footer {
-        display: flex;
         max-width: 928px;
-        margin: 9% auto 2.4%;
     }
 }
 
 @media (max-width:768px) {
     .footer {
         max-width: 720px;
-        margin: 11.5% auto 3%;
+      margin-top: 90px;
     }
 }
 @media (min-width:321px) and (max-width:767px) {
     .footer{
         flex-direction: column; 
-        margin-top: 48px;
+        margin-top: 64px;
     }
 }
 @media (max-width:320px) {
     .footer {
         width: 186px;
         flex-direction: column;
-        margin: 64px  118px  24px 16px;
+        margin: 0;
+        padding: 64px  0  24px 16px;
     }
 }
 

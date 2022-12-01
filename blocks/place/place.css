@@ -2,40 +2,30 @@
     display: grid;
     max-width: 984px;
     width: 100%;
-    margin: 7% auto;
+    margin: 0 auto;
     padding: 0;
-}
-
-@media (min-width:1023px) and (max-width:1279px) {
-    .place {
-        margin: 9% auto;
-    }
+    margin-top: 92px;
 }
 
 @media (max-width:1024px) {
     .place {
         max-width: 928px;
-        width: 90%;
     }
 }
 
 @media (max-width:768px) {
     .place {
         max-width: 720px;
-        margin: 11% 3%;
-    }
-}
-
-@media (min-width:321px) and (max-width:767px) {
-    .place {
-        margin: 11% auto;
+    
+        width: 100%;
+       margin-top: 88px;
     }
 }
 
 @media (max-width:320px) {
     .place {
         max-width: 320px;
-        width: 100%;
-        margin: 17% auto;
+       
+      margin-top: 64px;
     }
 }
