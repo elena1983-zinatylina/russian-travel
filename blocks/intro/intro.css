@@ -1,6 +1,6 @@
 .intro {
     max-width: 690px;
-    width: calc(100%-590px);
+    width: calc(100% - 590px);
     margin: 92px 442px 0 148px;
     padding: 0;
 }
@@ -19,14 +19,14 @@
 
 @media (min-width: 769px) and (max-width: 1023px) {
     .intro {
-        width: calc(100%-48px);
+        width: calc(100% - 48px);
         margin: 88px 24px 0 24px;
     }
 }
 
 @media (max-width:768px) {
     .intro {
-        width: calc(100%-48px);
+        width: calc(100% - 48px);
         margin: 88px 24px 0 24px;
     }
 }
@@ -34,7 +34,7 @@
 @media (min-width:321px) and (max-width:767px) {
     .intro {
         margin: 64px 24px 0 24px;
-        width: calc(100%-48px);
+        width: calc(100% - 48px);
     }
 }
 
