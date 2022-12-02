@@ -4,7 +4,7 @@
     padding: 0;
     margin: 0 auto;
     max-width: 984px;
-    width: calc(100%-296px);
+    width: calc(100% - 296px);
     flex-direction: column;
     margin-top: 56px;
 }
