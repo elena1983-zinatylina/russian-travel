@@ -22,6 +22,12 @@
     }
 }
 
+@media (max-width: 767px) {
+    .lead {
+        width: 95%;
+    }
+}
+
 @media (max-width: 320px) {
     .lead {
         max-width: 316px;

@@ -28,7 +28,8 @@
 }
 @media (max-width: 768px) {
     .photo-grid {
-       width: 95%;
+       width: 90%;
+       margin: 60px 16px 0 16px;
     }
 }
 
