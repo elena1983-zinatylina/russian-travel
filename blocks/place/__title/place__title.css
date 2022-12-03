@@ -22,12 +22,21 @@
     .place__title {
         font-size: 42px;
         line-height: 46px;
-        width: 90%;
+        width: 95%;
+    }
+}
+
+@media (max-width:767px) {
+    .place__title {
+        max-width:650px;
+        font-size: 58px;
+        margin: 0 0 0 16px;
     }
 }
 
 @media (max-width:320px) {
     .place__title {
+        max-width: 288px;
         font-size: 32px;
         line-height: 35px;
         margin: 0 16px;

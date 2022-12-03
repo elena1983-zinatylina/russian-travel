@@ -1,7 +1,8 @@
 .place__paragraphs {
-    display: grid;
+    display: flex;
+    flex-direction: column;
     gap: 26px;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     width: 100%;
     max-width: 484px;
@@ -19,15 +20,15 @@
     }
 }
 
-@media (min-width:321px) and (max-width:767px) {
+@media (max-width:767px) {
     .place__paragraphs {
-        max-width: 288px;
+        max-width: 700px;
     }
 }
 
 @media (max-width:320px) {
     .place__paragraphs {
         max-width: 288px;
-        gap: 25px;
+       
     }
 }

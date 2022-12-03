@@ -6,32 +6,21 @@
     text-align: center;
     color: rgb(255, 255, 255, 1);
     max-width: 560px;
-    margin: 0 26.35% 2.71%;
-    padding-top: 20.694%;
+    margin: 0 auto;
+    padding-top: 245px;
     list-style: none;
     width: 100%;
 }
+
 @media (max-width:1024px) {
     .cover__title {
-        margin: auto;
         padding-top: 195px;
     }
 }
 
 @media (max-width:768px) {
     .cover__title {
-        margin: 0 14%;
-        padding-top: 15%;
-    }
-}
-
-@media (min-width: 321px) and (max-width:767px) {
-    .cover__title {
-        max-width: 560px;
-        font-size: 72px;
-        line-height: 76px;
-        margin: 0 auto;
-        width: 94%;
+        padding-top: 115px;
     }
 }
 
@@ -46,9 +35,7 @@
     .cover__title {
         font-size: 32px;
         line-height: 35px;
-        margin: 0 13px 16px;
-        padding-top: 39px;
+        padding-top: 33px;
         max-width: 288px;
-        width: 100%;
     }
 }
