@@ -5,34 +5,34 @@
     font-size: 18px;
     line-height: 1.63;
     color: #FFFFFF;
-    width: 100%;
+  
     padding: 0; 
     object-fit: contain;
 }
 
 @media (max-width: 1024px) {
     .place__paragraph {
-        max-width: 456px;
+        
     }
 }
 
 @media (max-width:768px) {
     .place__paragraph {
-        max-width: 352px;
+       
         font-size: 16px;
     }
 }
 
 @media (max-width:767px) {
     .place__paragraph {
-        max-width: 700px;
+      
         margin: 0 16px 0 16px;
        
     }
 }
 @media (max-width:320px) {
     .place__paragraph {
-        max-width: 288px;
+       
         margin: 0;
     }
 }
