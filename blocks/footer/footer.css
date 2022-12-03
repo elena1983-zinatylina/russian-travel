@@ -3,41 +3,38 @@
     max-width: 1184px;
     width: 100%;
     margin: 0 auto;
-
     justify-content: space-between;
-    margin-top: 89px;
+    margin-top: 92px;
     margin-bottom: 24px;
     object-fit: contain;
 }
 
-@media (max-width:1024px) {
+@media (max-width: 1024px) {
     .footer {
         max-width: 928px;
-        margin-top: 82px;
     }
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
     .footer {
         max-width: 720px;
-        margin-top: 72px;
+        margin-top: 89px;
     }
 }
 
-@media (max-width:767px) {
+@media (max-width: 767px) {
     .footer {
-    flex-direction: column;
-    max-width: 280px;
-    margin: 50px 0 0 16px;
-    }
-}
-
-@media (max-width:320px) {
-    .footer {
-       max-width: 186px;
-       width: 100%;
         flex-direction: column;
+        max-width: 280px;
+        margin: 50px 0 0 24px;
+    }
+}
+
+@media (max-width: 320px) {
+    .footer {
+        max-width: 186px;
+        width: 100%;
         padding: 0;
-        margin: 57px 0 24px 0;
+        margin: 65px 0 24px 16px;
     }
 }

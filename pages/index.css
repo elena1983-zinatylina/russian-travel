@@ -45,6 +45,3 @@
 @import url("../blocks/footer/__links/footer__links.css");
 @import url("../blocks/footer/__link/footer__link.css");
 @import url("../blocks/footer/__copyright/footer__copyright.css");
-.page, ul, div, section, h3, header, footer, main, h1, h2, p, a, nav{
-    border: 0.5px solid red;
-}

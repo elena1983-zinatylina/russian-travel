@@ -4,7 +4,6 @@
     margin: 0 auto;
     padding: 0;
     margin-top: 92px;
-   
 }
 
 @media (max-width:1024px) {
@@ -13,24 +12,29 @@
     }
 }
 
-@media (max-width:768px) {
+@media (max-width: 1023px) {
     .place {
-        max-width: 720px;
-        margin-top: 88px;
+        width: 95%;
     }
 }
 
-/*@media (max-width:767px) {
+@media (max-width: 768px) {
     .place {
-        max-width: 320px;
-        margin-top: 61px;
-        object-fit: cover;
+        margin-top: 88px;
+        width: 100%;
     }
-}*/
+}
 
-@media (max-width:320px) {
+@media (max-width: 767px) {
+    .place {
+        max-width: 700px;
+        margin-top: 61px;
+    }
+}
+
+@media (max-width: 320px) {
     .place {
         max-width: 320px;
-        margin-top: 61px;
+        margin-top: 69px;
     }
 }

@@ -8,3 +8,9 @@
     text-align: right;
 }
 
+@media  (max-width: 320px){
+    .header__lang-links {
+        align-items: center; 
+        margin-top: 8px;
+}  
+}
