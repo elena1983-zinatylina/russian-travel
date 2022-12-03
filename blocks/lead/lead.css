@@ -6,13 +6,13 @@
     max-width: 984px;
     width: 100%;
     flex-direction: column;
-    margin-top: 58px;
+    margin-top: 56px;
 }
 
 @media (max-width: 1024px) {
     .lead {
         max-width: 928px;
-        margin-top: 52px;
+        margin-top: 48px;
     }
 }
 
@@ -25,6 +25,6 @@
 @media (max-width: 320px) {
     .lead {
         max-width: 316px;
-        margin-top: 49px;
+        margin-top: 45px;
     }
 }

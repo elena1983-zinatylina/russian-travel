@@ -1,7 +1,7 @@
 .intro {
     max-width: 690px;
     width: 100%;
-    margin: 92px auto 0 141px;
+    margin: 86px auto 0 141px;
     padding: 0;
 }
 
@@ -14,7 +14,7 @@
 @media (max-width: 768px) {
     .intro {
         max-width: 720px;
-        margin: 92px auto 0;
+        margin: 81px auto 0;
     }
 }
 
@@ -26,7 +26,7 @@
 
 @media (max-width: 320px) {
     .intro {
-        margin: 70px 0 0 0;
+        margin: 62px 0 0 0;
         min-width: 288px;
         width: 100%;
     }

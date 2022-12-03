@@ -7,7 +7,7 @@
     align-items: center;
     grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
     gap: 16px;
-    margin-top: 92px;
+    margin-top: 84px;
 }
 
 @media (max-width: 1024px) {
@@ -22,7 +22,7 @@
     .photo-grid {
         max-width: 720px;
         grid-template-columns: repeat(auto-fill, minmax(352px, 1fr));
-        gap: 16px;
+        gap: 11px;
         margin-top: 88px;
     }
 }
@@ -37,7 +37,7 @@
     .photo-grid {
         max-width: 288px;
         grid-template-columns: repeat(auto-fill, minmax(288px, 1fr));
-        gap: 12px;
+        gap: 10px;
         margin: 61px 16px;
     }
 }
