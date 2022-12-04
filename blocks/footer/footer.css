@@ -4,21 +4,35 @@
     width: 100%;
     margin: 0 auto;
     justify-content: space-between;
+    flex-direction: row;
     margin-top: 92px;
-    margin-bottom: 24px;
-    object-fit: contain;
+    padding: 0 0 24px;
+}
+
+@media (max-width: 1279px) {
+    .footer {
+        width: 95%;
+    }
 }
 
 @media (max-width: 1024px) {
     .footer {
         max-width: 928px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 1023px) {
+    .footer {
+        width: 95%;
     }
 }
 
 @media (max-width: 768px) {
     .footer {
         max-width: 720px;
-        margin-top: 94px;
+        width: 100%;
+        margin-top: 78px;
     }
 }
 
@@ -32,9 +46,8 @@
 
 @media (max-width: 320px) {
     .footer {
-        max-width: 186px;
         width: 100%;
         padding: 0;
-        margin: 66px 0 24px 16px;
+        margin: 54px 0 24px 16px;
     }
 }

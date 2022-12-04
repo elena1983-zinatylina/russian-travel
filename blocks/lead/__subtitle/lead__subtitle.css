@@ -2,7 +2,6 @@
     font-style: normal;
     font-weight: 400;
     font-size: 30px;
-    line-height: 1.2;
     text-align: center;
     padding: 0;
     margin: 0 auto 64px;
@@ -17,7 +16,7 @@
     }
 }
 
-@media (min-width:321px) and (max-width:767px) {
+@media (max-width:767px) {
     .lead__subtitle {
         font-size: max(3.91vw, min(16px));
     }

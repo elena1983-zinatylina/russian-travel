@@ -3,23 +3,27 @@
     color: #FFFFFF;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto;
-    column-gap: 19px;
+    column-gap: 14px;
     row-gap: 44px;
-    margin: 0 0 84px;
-    padding: 0;
+    margin: 0;
+    margin: 0 0 80px;
+}
+
+.place__item:last-child {
+    margin: 0;
 }
 
 @media (max-width: 1024px) {
     .place__item {
-        margin: 0 0 85px;
+        margin: 0 0 77px;
     }
 }
 
 @media (max-width: 768px) {
     .place__item {
-        row-gap: 52px;
+        row-gap: 56px;
         column-gap: 7px;
-        margin: 0 0 64px;
+        margin: 0 0 46px;
     }
 }
 
@@ -27,16 +31,7 @@
     .place__item {
         row-gap: 31px;
         grid-template-columns: repeat(1, 1fr);
+        margin: 0 0 46px;
     }
 }
 
-@media (max-width: 320px) {
-    .place__item {
-        margin: 0 0 62px;
-        row-gap: 31px;
-    }
-}
-
-.place__item:last-child {
-    margin: 0;
-}
