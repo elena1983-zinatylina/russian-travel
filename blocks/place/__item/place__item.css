@@ -4,7 +4,7 @@
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto;
     column-gap: 14px;
-    row-gap: 44px;
+    row-gap: 48px;
     margin: 0;
     margin: 0 0 80px;
 }
@@ -13,25 +13,19 @@
     margin: 0;
 }
 
-@media (max-width: 1024px) {
-    .place__item {
-        margin: 0 0 77px;
-    }
-}
-
 @media (max-width: 768px) {
     .place__item {
-        row-gap: 56px;
+        row-gap: 46px;
         column-gap: 7px;
-        margin: 0 0 46px;
+        margin: 0 0 73px;
     }
 }
 
 @media (max-width: 767px) {
     .place__item {
-        row-gap: 31px;
+        row-gap: 34px;
         grid-template-columns: repeat(1, 1fr);
-        margin: 0 0 46px;
+        margin: 0 0 50px;
     }
 }
 

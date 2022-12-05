@@ -11,6 +11,7 @@
 @media (max-width: 768px) {
     .intro__lists {
         max-width: 720px;
+        padding-top: 31px;
     }
 }
 
