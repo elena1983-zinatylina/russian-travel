@@ -4,7 +4,7 @@
     line-height: 1.17;
     text-decoration: none;
     margin-right: 18px;
-    text-decoration: underline;
+    border-bottom: 1px solid white;
 }
 
 .header__lang-link:hover {
@@ -12,7 +12,7 @@
 }
 
 .header__lang-link:last-child{
-    text-decoration: none;
+    border-bottom: 0;
     margin-right: 0;
 }
 @media (max-width: 320px) {
